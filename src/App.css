@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #343a40;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+h2{
+  position: relative;
+  bottom: 20px;
+}
+
+
+.todoForm_input {
+  background-color: #f4fce3;
+  border: solid 1px #5c940d;
+  border-right: none;
+  padding: 10px;
+  flex-basis: 81%;   /* expand of the input box */
+  height: 24px;
+  border-radius: 5px 0 0 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.todoForm_btn {
+  background-color: rgb(47, 48, 48);
+  border-color:rgb(71, 167, 34);
+  border: solid 1px #2c2c2c;
+  color: white;
+  padding: 10px;
+  height: 45px;
+  border-radius: 0 5px 5px 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.todoWrapper{
+  background-color: rgb(70, 238, 95);
+  max-width: 500px;
+  color: #212529;
+  padding: 25px;
+  border-radius: 8px;
+  margin-top: 30px;
+  width: 50vw;
+  height: auto;
+}
+
+.todoForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 10px;
+}
+
+.taskItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e9fac8 ;
+  border-radius: 5px;
+  padding: 3px 15px;
+  margin-top: 13px;
+  text-align: start;
+  height: 40px;
+}
+
+
+.taskItem_taskName {
+  flex-basis: 90%;
+  /* background-color: #339af0; */
+}
+
+
+.taskItem_icon {
+  width: 15px;
+} 
+
+
+.completed {
+  text-decoration: line-through;
+  background-color: #dee2e6;
+} 
+
